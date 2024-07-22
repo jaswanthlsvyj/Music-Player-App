@@ -2,7 +2,6 @@ package SongPlayList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.ListIterator;
 import java.util.Scanner;
 import java.util.Iterator;
@@ -127,7 +126,7 @@ public class Main {
                     break;
             }
         }
-
+        input.close();
     }
 
     // method to show the menu to the user
